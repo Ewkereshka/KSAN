@@ -1,0 +1,1573 @@
+body{
+	margin: 0;
+	font-family: 'Raleway', sans-serif;;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #333;
+}
+*,
+*:before,
+*:after{
+	box-sizing: bprder-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+{
+
+}
+/*Титульная страница на главной странице*/
+.Fon2{
+	position: absolute;
+	z-index: -1;
+	width: 1480px;
+	height: 700px;
+	left: 0px;
+	top: 0px;
+
+background: #F2F0FF;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.Vhod{
+	background: url("C:/Users/Unknow/Desktop/ODERA/CSS/Vhod.jpeg")
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	left: 1251px;
+	top: 30px;
+	background: #6B5DF4;
+	border-radius: 100px;;
+}
+/*Шапкка страницы*/
+.opisanie{
+	position: absolute;
+	width: 406px;
+	height: 104px;
+	left: 160px;
+	top: 222px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 52px;
+	letter-spacing: 0.02em;
+	color: #15144E;
+}
+.opisanie2{
+	position: absolute;
+	width: 440px;
+	height: 56px;
+	left: 160px;
+	top: 336px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 120%;
+	color: #15144E;
+}
+.intro{
+	width: 100%;
+	height: 100vh;
+	background: 
+	url("C:/Users/Unknow/Desktop/ODERA/CSS/Glavnay.jpeg") right 
+	no-repeat;
+}
+.Dolgnost{
+	position: absolute;
+	width: 214px;
+	height: 17px;
+	left: 238px;
+	top: 448px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.01em;
+	color: rgba(0, 0, 0, 0.42);
+}
+.Gorod{
+	position: absolute;
+	width: 121px;
+	height: 17px;
+	left: 555px;
+	top: 448px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.01em;
+	color: rgba(0, 0, 0, 0.42);
+}
+.Poisc{
+	position: absolute;
+	z-index: 2;
+	width: 56px;
+	height: 19px;
+	left: 770px;
+	top: 448px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+}
+.Rectangle3{
+	background:url("C:/Users/Unknow/Desktop/ODERA/CSS/Rectangle 3")
+	box-sizing: border-box;
+	position: absolute;
+	width: 188px;
+	height: 75px;
+	left: 700px;
+	top: 420px;
+	background: #6B5DF4;
+	border-radius: 5px;;
+}
+.Vector{
+	background:url("C:/Users/Unknow/Desktop/ODERA/CSS/Vector 4")
+	box-sizing: border-box;
+	position: absolute;
+	width: 0px;
+	height: 69px;
+	left: 475px;
+	top: 423px;
+	border: 2px solid #6B5DF4;;
+}
+.Rectangle2{
+	background:url("C:/Users/Unknow/Desktop/ODERA/CSS/Rectangle2")
+	box-sizing: border-box;
+	position: absolute;
+	width: 722px;
+	height: 67px;
+	left: 160px;
+	top: 420px;
+	border: 5px solid #6B5DF4;
+	box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.04);
+	border-radius: 5px;
+}
+.Lupa{
+	z-index: 2;
+	position: absolute;
+	width: 27.93px;
+	height: 26.8px;
+	left: 193.7px;
+	top: 443.55px;
+	background: url("C:/Users/Unknow/Desktop/ODERA/CSS/Lupa.jpeg");
+	border-radius: 5px;
+
+}
+.Location{
+	position: absolute;
+	width: 26.83px;
+	height: 26.8px;
+	left: 508px;
+	top: 443px;
+	background: url("C:/Users/Unknow/Desktop/ODERA/CSS/Locacia.jpeg");
+	border-radius: 5px;
+}
+
+/*Навигация, верхяя часть*/
+.header{
+	position: absolute;
+	width: 1480px;
+	height: 90px;
+	left: 0px;
+	top: 0px;
+
+background: #E1DFFF;
+}
+.header_logo{
+	position: absolute;
+	width: 35px;
+	height: 16px;
+	left: 160px;
+	top: 37px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	color: #15144E;
+}
+.nav{
+	font-size: 14px;
+}
+.nav_glavnay{
+	position: absolute;
+	width: 56px;
+	height: 16px;
+	left: 289px;
+	top: 37px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	color: #15144E;
+}
+.nav_student{
+	position: absolute;
+	width: 75px;
+	height: 16px;
+	left: 390px;
+	top: 37px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	color: #15144E;
+}
+.nav_work{
+	position: absolute;
+	width: 107px;
+	height: 16px;
+	left: 502px;
+	top: 37px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	color: #15144E;
+}
+.nav_grupa{
+	position: absolute;
+	width: 51px;
+	height: 16px;
+	left: 645px;
+	top: 37px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	color: #15144E;
+}
+.nav_chat{
+	position: absolute;
+	width: 34px;
+	height: 16px;
+	left: 741px;
+	top: 37px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	color: #15144E;
+}
+.nav_reg{
+	position: absolute;
+	width: 88px;
+	height: 16px;
+	left: 1128px;
+	top: 37px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	color: #15144E;
+}
+.nav_vhod{
+	position: absolute;
+	width: 34px;
+	height: 14.12px;
+	left: 1284px;
+	top: 28px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+	background: #6B5DF4;
+	padding: 9px;
+	border-radius: 10px;
+}
+
+/*Работодатели*/
+.Help{
+	position: absolute;
+	width: 285px;
+	height: 27px;
+	left: 160px;
+	top: 770px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 23px;
+	line-height: 27px;
+	letter-spacing: 0.02em;
+	color: #15144E;
+}
+.sibur{
+	position: absolute;
+	width: 100px;
+	height: 16.38px;
+	left: 709px;
+	top: 775px;
+	
+}
+.gasprom{
+	position: absolute;
+	width: 100px;
+	height: 33.11px;
+	left: 838px;
+	top: 760px;
+	background: #FFFFFF;
+}
+.trasneft{
+	position: absolute;
+	width: 100px;
+	height: 26px;
+	left: 967px;
+	top: 766px;
+}
+.lukoyl{
+	position: absolute;
+	width: 100px;
+	height: 24.79px;
+	left: 1096px;
+	top: 772px;
+	background: #FFFFFF;
+}
+.rosneft1{
+	position: absolute;
+	width: 4.99px;
+	height: 8.64px;
+	top: 775px;
+	left: 1218.51px;
+	background: #000000;
+}
+.rosneft2{
+	position: absolute;
+	left: 1240px;
+	top: 775px;
+	width: 80px;
+	height: 12px;
+	background: #000000;
+}
+/*Описание(соц сеть для тебя)*/
+.Fon{
+	position: absolute;
+width: 1480px;
+height: 700px;
+left: 0px;
+top: 857px;
+
+background: #F2F0FF;
+}
+.Soc{
+	position: absolute;
+	width: 885px;
+	height: 47px;
+	top:937px ;
+	left: 318px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 47px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #15144E;
+}
+.soc_op1{
+	position: absolute;
+	width: 339px;
+	height: 60px;
+	top: 1253px;
+	left: 166px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 120%;
+	font-variant: small-caps;
+	color: #15144E;
+}
+.soc_op2{
+	position: absolute;
+	width: 267px;
+	height: 60px;
+	top: 1255px;
+	left: 586px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 120%;
+	font-variant: small-caps;
+	color: #15144E;
+}
+.soc_op3{
+	position: absolute;
+	width: 213px;
+	height: 60px;
+	top: 1248px;
+	left: 975px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 120%;
+	font-variant: small-caps;
+	color: #15144E;
+}
+.soc_op12{
+	position: absolute;
+	width: 368px;
+	height: 96px;
+	top: 1323px;
+	left: 166px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 120%;
+	font-variant: small-caps;
+	color: #15144E;
+}
+.soc_op22{
+	position: absolute;
+	width: 339px;
+	height: 96px;
+	top:1325px ;
+	left: 586px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 120%;
+	font-variant: small-caps;
+	color: #15144E;
+}
+.soc_op32{
+	position: absolute;
+	width: 345px;
+	height: 120px;
+	top: 1318px;
+	left: 975px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 120%;
+	font-variant: small-caps;
+	color: #15144E;
+}
+.Socset1{
+	position: absolute;
+	width: 350px;
+	height: 208.48px;
+	left: 166px;
+	top: 1034px;
+
+}
+.Socset2{
+	position: absolute;
+	width: 320px;
+	height: 208.31px;
+	left: 566px;
+	top: 1035px;
+}
+.Socset3{
+	position: absolute;
+	width: 350px;
+	height: 197.17px;
+	left: 955px;
+	top: 1040px;
+
+}
+/*Работа по категориям*/
+.Rabot{
+	position: absolute;
+	width: 434px;
+	height: 47px;
+	left: 523px;
+	top: 1637px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 47px;
+	text-align: center;
+	color: #15144E;
+}
+.Rabota_IT{
+	position: absolute;
+	z-index: 2;
+	width: 135px;
+	height: 36px;
+	left: 230px;
+	top: 1792px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: #15144E;
+}
+.Rabota_Neft{
+	position: absolute;
+	z-index: 2;
+	width: 83px;
+	height: 18px;
+	left: 556px;
+	top: 1801px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: #15144E;
+}
+.Rabota_Fin{
+	position: absolute;
+	z-index: 2;
+	width: 66px;
+	height: 18px;
+	left: 874px;
+	top: 1801px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: #15144E;
+}
+.Rabota_Mened{
+	position: absolute;
+	z-index: 2;
+	width: 96px;
+	height: 18px;
+	left: 1172px;
+	top: 1803px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: #15144E;
+}
+.Rabota_Stroy{
+	position: absolute;
+	z-index: 2;
+	width: 112px;
+	height: 36px;
+	left: 239px;
+	top: 2009px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: #15144E;
+}
+.Rabota_Prod{
+	position: absolute;
+	z-index: 2;
+	width: 67px;
+	height: 18px;
+	left: 572px;
+	top: 2021px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: #15144E;
+}
+.Rabota_Sluga{
+	position: absolute;
+	z-index: 2;
+	width: 142px;
+	height: 18px;
+	left: 840px;
+	top: 2018px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: #15144E;
+}
+.Rabota_Big{
+	position: absolute;
+	z-index: 2;
+	width: 134px;
+	height: 18px;
+	left: 1129px;
+	top: 2034px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: rgba(21, 20, 78, 0.5);
+}
+/*картинки для работы по категориям*/
+.Benz{
+	position: absolute;
+	z-index: 2;
+	width: 28px;
+	height: 28px;
+	left: 518px;
+	top: 1796px;
+}
+.Diagrama{
+	position: absolute;
+	z-index: 2;
+	width: 28px;
+	height: 28px;
+	left: 534px;
+	top: 2013px;
+}
+.Zdanie{
+	position: absolute;
+	z-index: 2;
+	width: 40px;
+	height: 40px;
+	left: 189px;
+	top: 2007px;
+}
+.Comp{
+	position: absolute;
+	z-index: 2;
+	width: 28px;
+	height: 28px;
+	left: 192px;
+	top: 1792px;
+}
+.Ludi{
+	position: absolute;
+	z-index: 2;
+	width: 28px;
+	height: 28px;
+	left: 1134px;
+	top: 1796px;
+}
+.Money{
+	position: absolute;
+	z-index: 2;
+	width: 28px;
+	height: 28px;
+	left: 836px;
+	top: 1796px;
+}
+.Strelka{
+	position: absolute;
+	z-index: 2;
+	width: 28px;
+	height: 0px;
+	left: 1129px;
+	top: 2019px;
+	background: rgba(21, 20, 78, 0.5);
+	border: 2px solid rgba(21, 20, 78, 0.5);
+}
+.Chuvak{
+	position: absolute;
+	z-index: 2;
+	width: 28px;
+	height: 28px;
+	left: 802px;
+	top: 2013px;
+}
+.Sera1{
+	position: absolute;
+	width: 236px;
+	height: 168px;
+	left: 160px;
+	top: 1726px;
+	background: #E1DFFF;
+	border-radius: 5px;
+}
+.Sera2{
+	position: absolute;
+	width: 236px;
+	height: 168px;
+	left: 468px;
+	top: 1726px;
+	background: #E1DFFF;
+	border-radius: 5px;
+}
+.Sera3{
+	position: absolute;
+	width: 236px;
+	height: 168px;
+	left: 776px;
+	top: 1726px;
+	background: #E1DFFF;
+	border-radius: 5px;
+}
+.Sera4{
+	position: absolute;
+	width: 236px;
+	height: 168px;
+	left: 1084px;
+	top: 1726px;
+	background: #E1DFFF;
+	border-radius: 5px;
+}
+.Sera5{
+	position: absolute;
+	width: 236px;
+	height: 168px;
+	left: 160px;
+	top: 1943px;
+	background: #E1DFFF;
+	border-radius: 5px;
+}
+.Sera6{
+	position: absolute;
+	width: 236px;
+	height: 168px;
+	left: 468px;
+	top: 1943px;
+	background: #E1DFFF;
+	border-radius: 5px;
+}
+.Sera7{
+	position: absolute;
+	width: 236px;
+	height: 168px;
+	left: 776px;
+	top: 1943px;
+	background: #E1DFFF;
+	border-radius: 5px;
+}
+.Sera8{
+	box-sizing: border-box;
+	position: absolute;
+	width: 236px;
+	height: 168px;
+	left: 1084px;
+	top: 1943px;
+	border: 2px solid #E1DFFF;
+	border-radius: 5px;
+}
+/*Новые вакансии*/
+.New_Vacans{
+	position: absolute;
+	width: 323px;
+	height: 47px;
+	left: 562px;
+	top: 2271px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 47px;
+	text-align: center;
+	color: #15144E;
+}
+.Vacans_IT{
+	position: absolute;
+	width: 219px;
+	height: 16px;
+	left: 228px;
+	top: 2407px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Vacans_Разработка{
+	position: absolute;
+	width: 242px;
+	height: 38px;
+	left: 205px;
+	top: 2452px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #15144E;
+}
+.Vacans_Т{
+	position: absolute;
+	width: 106px;
+	height: 16px;
+	left: 234px;
+	top: 2506px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.Vacans_Сибур{
+	position: absolute;
+	width: 126px;
+	height: 16px;
+	left: 296px;
+	top: 2564px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Vacans_Финансы{
+	position: absolute;
+	width: 63px;
+	height: 16px;
+	left: 628px;
+	top: 2407px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Vacans_Менеджер{
+	position: absolute;
+	width: 209px;
+	height: 38px;
+	left: 605px;
+	top: 2452px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #15144E;
+}
+.Vacans_Тю{
+	position: absolute;
+	width: 106px;
+	height: 16px;
+	left: 634px;
+	top: 2506px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.Vacans_Транснефть{
+	position: absolute;
+	width: 184px;
+	height: 16px;
+	left: 710px;
+	top: 2564px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Vacans_Продажи{
+	position: absolute;
+	width: 62px;
+	height: 16px;
+	left: 1028px;
+	top: 2407px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Vacans_Специалист{
+	position: absolute;
+	width: 203px;
+	height: 19px;
+	left: 1005px;
+	top: 2452px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #15144E;
+}
+.Vacans_Тюм{
+	position: absolute;
+	width: 106px;
+	height: 16px;
+	left: 1034px;
+	top: 2506px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.Vacans_Роснефть{
+	position: absolute;
+	width: 157px;
+	height: 16px;
+	left: 1111px;
+	top: 2564px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Vacans_Информ{
+	position: absolute;
+	width: 219px;
+	height: 16px;
+	left: 228px;
+	top: 2694px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Vacans_Джава{
+	position: absolute;
+	width: 149px;
+	height: 19px;
+	left: 205px;
+	top: 2739px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #15144E;
+}
+.Vacans_Тюме{
+	position: absolute;
+	width: 106px;
+	height: 16px;
+	left: 234px;
+	top: 2793px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.Vacans_Креатив{
+	position: absolute;
+	width: 137px;
+	height: 16px;
+	left: 261px;
+	top: 2851px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Vacans_Дизайн{
+	position: absolute;
+	width: 50px;
+	height: 16px;
+	left: 628px;
+	top: 2694px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Vacans_Интерьер{
+	position: absolute;
+	width: 233px;
+	height: 38px;
+	left: 605px;
+	top: 2739px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #15144E;
+}
+.Vacans_Тюмен{
+	position: absolute;
+	width: 106px;
+	height: 16px;
+	left: 634px;
+	top: 2793px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.Vacans_Стайл{
+	position: absolute;
+	width: 170px;
+	height: 16px;
+	left: 725px;
+	top: 2851px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Vacans_служба{
+	position: absolute;
+	width: 129px;
+	height: 16px;
+	left: 1028px;
+	top: 2694px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+
+	color: rgba(21, 20, 78, 0.6);
+}
+.Vacans_Оператор{
+	position: absolute;
+	width: 274px;
+	height: 19px;
+	left: 1005px;
+	top: 2739px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #15144E;
+}
+.Vacans_Тюмень{
+	position: absolute;
+	width: 106px;
+	height: 16px;
+	left: 1034px;
+	top: 2793px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.Vacans_Таргет{
+	position: absolute;
+	width: 134px;
+	height: 16px;
+	left: 1052px;
+	top: 2851px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(21, 20, 78, 0.6);
+}
+
+.Prim{
+	position: absolute;
+	z-index: -2;
+	width: 1480px;
+	height: 900px;
+	left: 0px;
+	top: 2191px;
+	background: #F1F0FF;
+}
+.Vacans_Sibur{
+	position: absolute;
+	width: 77px;
+	height: 14px;
+	left: 199px;
+	top: 2565px;
+	border-radius: 5px;
+}
+.Vacans_transneft{
+	position: absolute;
+	width: 84px;
+	height: 22px;
+	left: 606px;
+	top: 2555px;
+	border-radius: 5px;
+}
+.Vacans_rosneft1{
+	position: absolute;
+	width: 10.86px;
+	height: 13.65px;
+	left: 1005px;
+	top: 2565px;
+}
+.Vacans_rosneft2{
+	position: absolute;
+	left: 68.82%;
+	right: 26.28%;
+	top: 71.47%;
+	bottom: 28.25%;
+	background: #15144E;
+	border-radius: 5px;
+}
+.Vacans_creative{
+	position: absolute;
+	width: 36.03px;
+	height: 35px;
+	left: 205px;
+	top: 2841px;
+}
+.Vacans_Style{
+	position: absolute;
+	width: 115px;
+	height: 30px;
+	left: 590px;
+	top: 2844px;
+}
+.Vacans_Target{
+	position: absolute;
+	width: 63px;
+	height: 51px;
+	left: 987px;
+	top: 2833px;
+}
+.Vacans_Point1{
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 205px;
+	top: 2412px;
+	background: #BDBDD3;
+	border-radius: 5px;
+}
+.Vacans_Point2{
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 605px;
+	top: 2412px;
+	background: #BDBDD3;
+	border-radius: 5px;
+}
+.Vacans_Point3{
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 1005px;
+	top: 2412px;
+	background: #BDBDD3;
+	border-radius: 5px;
+}
+.Vacans_Point4{
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 205px;
+	top: 2699px;
+	background: #BDBDD3;
+	border-radius: 5px;
+}
+.Vacans_Point5{
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 605px;
+	top: 2699px;
+	background: #BDBDD3;
+	border-radius: 5px;
+}
+.Vacans_Point6{
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 1005px;
+	top: 2699px;
+	background: #BDBDD3;
+	border-radius: 5px;
+}
+.Locali1{
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	left: 203px;
+	top: 2504px;
+	border-radius: 5px;
+}
+.Locali2{
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	left: 603px;
+	top: 2504px;
+	border-radius: 5px;
+}
+.Locali3{
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	left: 1003px;
+	top: 2504px;
+	border-radius: 5px;
+}
+.Locali4{
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	left: 203px;
+	top: 2791px;
+	border-radius: 5px;
+}
+.Locali5{
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	left: 603px;
+	top: 2791px;
+	border-radius: 5px;
+}
+.Locali6{
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	left: 1003px;
+	top: 2791px;
+	border-radius: 5px;
+}
+.BK1{
+	position: absolute;
+	z-index: -1;
+	width: 360px;
+	height: 238px;
+	left: 160px;
+	top: 2372px;
+	background: #FEFEFE;
+	border-radius: 5px;
+}
+.BK2{
+	position: absolute;
+	z-index: -1;
+	width: 360px;
+	height: 238px;
+	left: 560px;
+	top: 2372px;
+	background: #FEFEFE;
+	border-radius: 5px;
+}
+.BK3{
+	position: absolute;
+	z-index: -1;
+	width: 360px;
+	height: 238px;
+	left: 960px;
+	top: 2372px;
+	background: #FEFEFE;
+	border-radius: 5px;
+}
+.BK4{
+	position: absolute;
+	z-index: -1;
+	width: 360px;
+	height: 238px;
+	left: 160px;
+	top: 2659px;
+	background: #FEFEFE;
+	border-radius: 5px;
+}
+.BK5{
+	position: absolute;
+	z-index: -1;
+	width: 360px;
+	height: 238px;
+	left: 560px;
+	top: 2659px;
+	background: #FEFEFE;
+	border-radius: 5px;
+}
+.BK6{
+	position: absolute;
+	z-index: -1;
+	width: 360px;
+	height: 238px;
+	left: 960px;
+	top: 2659px;
+	background: #FEFEFE;
+	border-radius: 5px;
+}
+.Vsevakansii{
+	position: absolute;
+	width: 136px;
+	height: 23px;
+	left: 672px;
+	top: 2971px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	color: #FFFFFF;
+}
+.FO{
+	position: absolute;
+	z-index: -1;
+	width: 280px;
+	height: 70px;
+	left: 600px;
+	top: 2947px;
+	background: #6B5DF4;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 100px;
+}
+/*Нижняя навигация*/
+.Navigad{
+	position: absolute;
+	width: 106px;
+	height: 23px;
+	left: 160px;
+	top: 3127px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	color: #15144E;
+}
+.Главнаястраница{
+	position: absolute;
+	width: 143px;
+	height: 19px;
+	left: 160px;
+	top: 3179px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Входработодатели{
+	position: absolute;
+	width: 198px;
+	height: 19px;
+	left: 372px;
+	top: 3179px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Входстуденты{
+	position: absolute;
+	width: 158px;
+	height: 19px;
+	left: 652px;
+	top: 3175px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Группы{
+	position: absolute;
+	width: 59px;
+	height: 19px;
+	left: 891px;
+	top: 3175px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Чаты{
+	position: absolute;
+	width: 41px;
+	height: 19px;
+	left: 1020px;
+	top: 3175px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Вашгород{
+	position: absolute;
+	width: 154px;
+	height: 19px;
+	left: 1127px;
+	top: 3175px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Информация{
+	position: absolute;
+	width: 129px;
+	height: 23px;
+	left: 160px;
+	top: 3258px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	color: #15144E;
+}
+.Поддержка{
+	position: absolute;
+	width: 162px;
+	height: 54px;
+	left: 160px;
+	top: 3310px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Документы{
+	position: absolute;
+	width: 115px;
+	height: 23px;
+	left: 160px;
+	top: 3424px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	color: #15144E;
+}
+.Политика{
+	position: absolute;
+	width: 253px;
+	height: 19px;
+	left: 159px;
+	top: 3476px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Пользовательское{
+	position: absolute;
+	width: 249px;
+	height: 19px;
+	left: 159px;
+	top: 3507px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.Политики{
+	position: absolute;
+	width: 301px;
+	height: 19px;
+	left: 159px;
+	top: 3538px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(21, 20, 78, 0.6);
+}
+.CCK{
+	position: absolute;
+	z-index: -2;
+	width: 1480px;
+	height: 500px;
+	left: 0px;
+	top: 3091px;
+	background: #E1DFFF;
+}
+.Vectori1{
+	position: absolute;
+	width: 1160px;
+	height: 1px;
+	left: 160px;
+	top: 3159px;
+}
+.Vectori2{
+	position: absolute;
+	width: 1160px;
+	height: 1px;
+	left: 160px;
+	top: 3290px;
+}
+.Vectori3{
+	position: absolute;
+	width: 1160px;
+	height: 1px;
+	left: 160px;
+	top: 3456px;
+}
+.VK{
+	position: absolute;
+	width: 301px;
+	height: 19px;
+	left: 1059px;
+	top: 3538px;
+}
+.Twiter{
+	position: absolute;
+	width: 301px;
+	height: 19px;
+	left: 1130px;
+	top: 3541px;
+}
+.FaceBuk{
+	position: absolute;
+	width: 301px;
+	height: 19px;
+	left: 1200px;
+	top: 3538px;
+}
+.Insta{
+	position: absolute;
+	width: 301px;
+	height: 19px;
+	left: 1270px;
+	top: 3538px;
+}
